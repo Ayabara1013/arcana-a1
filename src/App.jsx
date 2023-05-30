@@ -7,6 +7,7 @@ import { Col, Container, Form, Row, ToggleButton } from 'react-bootstrap'
 import Status from './components/Status'
 import Attacks from './components/Attacks'
 import Equiptment from './components/Equiptment'
+import RollTest from './components/RollTest'
 
 
 
@@ -74,7 +75,7 @@ function App() {
 
         <Col className='box1'>
           <div>column 3</div>
-        
+          <RollTest />
         </Col> 
 
 
